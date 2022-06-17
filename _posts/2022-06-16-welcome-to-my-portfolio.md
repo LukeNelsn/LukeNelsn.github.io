@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my portfolio!
-subtitle: An assortment of my past and current projects.
+subtitle: A quick review of what this site is all about
 author: Luke
 categories: welcome
 banner:
@@ -15,12 +15,14 @@ banner:
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-  subheading_style: "color: gold"
+  subheading_style: "color: blue"
 tags: jekyll theme yat
 sidebar: []
 ---
 
 My name is Luke Nelson, a recent gruaduate from the Leeds School of Business. Here you will find examples and snippets of my previous projects and current work. Although I am a business student, I have always been interested in computers and the ability to leverage our tasks with them.
+
+This site is a constant work in progress, so please excuse any typos or errors in its development 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -29,6 +31,16 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 ## section 1
 
 Jekyll also offers powerful support for code snippets:
+
+```python
+name = str(input('Your Name: '))
+def print_helloworld(name):
+    print('Hello World! \n' + ("Let's say hi to"), name + '!')
+print_helloworld(name)
+# output: 
+# Hello World!
+# Let's say hi to Luke!
+```
 
 {% highlight ruby %}
 def print_hi(name)

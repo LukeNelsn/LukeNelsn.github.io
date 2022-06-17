@@ -40,14 +40,14 @@ author: LukeNelsn
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "© {currentYear} {author}"
+copyright: "© <a href="https://lukenelsn.github.io">{author}</a>"
 
 description: >- # this means to ignore newlines until "baseurl:"
   My portfolio of current and previous work
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://LukeNelsn.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+favicon: "C:\Users\delor\OneDrive\Desktop\Desktop\Programming\GitHub_Page\L.png" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
