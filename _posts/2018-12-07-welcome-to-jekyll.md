@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Jekyll!!!
-subtitle: A awesome static site generator.
-author: Jeffrey
-categories: jekyll
+title: Welcome to my portfolio!
+subtitle: An assortment of my past and current projects.
+author: Luke
+categories: welcome
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -19,6 +19,8 @@ banner:
 tags: jekyll theme yat
 sidebar: []
 ---
+
+My name is Luke Nelson, a recent gruaduate from the Leeds School of Business. Here you will find examples and snippets of my previous projects and current work. Although I am a business student, I have always been interested in computers and the ability to leverage our tasks with them.
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
