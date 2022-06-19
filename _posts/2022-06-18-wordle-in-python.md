@@ -24,13 +24,13 @@ This simple and fun game captivated the internet for weeks during 2022. Now, you
 
 The game is both rudimentary and simplistic, yet matches the design and style of the original internet sensation ([here][original-wordle] ↗). Feel free to modiify and change the game as you see fit!
 
-This game runs perfectly just as a python file, and only requires the additional ` wordle-answers-alphabetical.txt` file to be stored in the same directory as your ` wordle.py` file, unless you want to reference the ` .txt` file another way.
+This game runs perfectly just as a python file, and only requires the additional `wordle-answers-alphabetical.txt` file to be stored in the same directory as your `wordle.py` file, unless you want to reference the `.txt` file another way.
 
-> Each of these files can also be downloaded from by GitHub account ([here][github-account] ↗)
+> Each of these files can also be downloaded from by GitHub account ([here][github-wordle] ↗)
 
 ## Python Wordle
 
-Required modules: ` random`
+Required modules: `random`
 
 #### Preliminary importing and organization of our words
 
