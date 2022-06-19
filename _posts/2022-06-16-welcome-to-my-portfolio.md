@@ -5,7 +5,7 @@ subtitle: A quick review of what this site is all about
 author: Luke
 categories: welcome
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video: https://vjs.zencdn.net/v/oceans.mp4 #https://player.vimeo.com/video/537042948?title=0&portrait=0&byline=0&autoplay=1&muted=true
   loop: true
   volume: 0.8
   start_at: 8.5
@@ -16,13 +16,23 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: white"
-tags: jekyll theme yat
+tags: welcome markdown
 sidebar: []
 ---
 
 My name is Luke Nelson, a recent gruaduate from the Leeds School of Business. Here you will find examples and snippets of my previous projects and current work. Although I am a business student, I have always been interested in computers and the ability to leverage our tasks with them.
 
-This site is a constant work in progress, so please excuse any typos or errors in its development 
+This site is a constant work in progress, so please excuse any typos or errors in it's development 
+
+## Incoming Articles & Posts:
+
+* (Python) Wordle - play wordle in your terminal
+* (Python) Flags of the World Quiz - quiz your flag knowledge in your terminal
+* (Python) Python for Finance - Review and problem-solving mostly insprired by the Python for Finance writings (Yves Hilpisch)
+* (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with QuantConnect along with outside data to generate stock picking decisions
+
+* (Personal) Favorite lessons and quotes from my best professors and professional mentors
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
