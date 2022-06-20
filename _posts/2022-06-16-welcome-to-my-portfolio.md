@@ -9,7 +9,7 @@ banner:
   loop: true
   volume: 0
   start_at: 8.5
-  image: assets\images\banners\home.jpeg #https://bit.ly/3xTmdUP
+  image: "assets\images\banners\home.jpeg" #https://bit.ly/3xTmdUP
   opacity: 0.618
   background: "#000"
   height: "100vh"
