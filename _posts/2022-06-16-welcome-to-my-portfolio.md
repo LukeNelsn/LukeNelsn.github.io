@@ -5,7 +5,7 @@ subtitle: A quick review of what this site is all about
 author: Luke
 categories: welcome
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4 #https://player.vimeo.com/video/537042948?title=0&portrait=0&byline=0&autoplay=1&muted=true
+  video: #https://vjs.zencdn.net/v/oceans.mp4
   loop: true
   volume: 0
   start_at: 8.5
