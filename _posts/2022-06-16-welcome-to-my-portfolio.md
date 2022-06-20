@@ -14,7 +14,7 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  heading_style: "font-size: 4.25em; font-weight: bold" #; text-decoration: underline
   subheading_style: "color: white"
 tags: welcome markdown
 sidebar: []
@@ -32,7 +32,14 @@ This site is a constant work in progress, so please excuse any typos or errors i
 * (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with QuantConnect along with outside data to generate stock picking decisions
 
 * (Personal) Favorite lessons and quotes from my best professors and professional mentors
+1. VC Coworker & Mentor: 
+>A healthy curiosity and ability to quickly acquire knowledge will always enable you to operate very well and productively in any kind of entrepreneurial venture
+2. Capstone course professors: 
+>Never stop learning, maintain happiness
+3. Financial Derivatives professors: 
+>Never lose sight of what's truly important- your 'why' & your 'purpose' 
 
+## From this site template:
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
