@@ -14,7 +14,7 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  heading_style: "font-size: 4.25em; font-weight: bold"
   subheading_style: "color: white"
 tags: projects python jupyter flagquiz
 sidebar: []
@@ -28,7 +28,7 @@ This game runs perfectly just as a python file, but even better when separated a
 
 The `png1000px` and `countries.json` files can be downloaded from hampusborgos's GitHub page ([here][countries-source] ↗) 
 
-> Each of these files can also be downloaded from by GitHub account ([here][github-flagquiz] ↗)
+> Each of these files can also be downloaded from my GitHub account ([here][github-flagquiz] ↗)
 
 ## Flags of the World Quiz in Python
 

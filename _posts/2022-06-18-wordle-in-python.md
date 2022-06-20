@@ -14,7 +14,7 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  heading_style: "font-size: 4.25em; font-weight: bold"
   subheading_style: "color: white"
 tags: projects python wordle
 sidebar: []
@@ -26,7 +26,7 @@ The game is both rudimentary and simplistic, yet matches the design and style of
 
 This game runs perfectly just as a python file, and only requires the additional `wordle-answers-alphabetical.txt` file to be stored in the same directory as your `wordle.py` file, unless you want to reference the `.txt` file another way.
 
-> Each of these files can also be downloaded from by GitHub account ([here][github-wordle] ↗)
+> Each of these files can also be downloaded from my GitHub account ([here][github-wordle] ↗)
 
 ## Python Wordle
 

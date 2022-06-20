@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to my portfolio!
+title: Welcome to my portfolio
 subtitle: A quick review of what this site is all about
 author: Luke
 categories: welcome
@@ -14,7 +14,7 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold" #; text-decoration: underline
+  heading_style: "font-size: 4.25em; font-weight: bold"
   subheading_style: "color: white"
 tags: welcome markdown
 sidebar: []
@@ -26,10 +26,8 @@ This site is a constant work in progress, so please excuse any typos or errors i
 
 ## Incoming Articles & Posts:
 
-* (Python) Wordle - play wordle in your terminal
-* (Python) Flags of the World Quiz - quiz your flag knowledge in your terminal
-* (Python) Python for Finance - Review and problem-solving mostly insprired by the Python for Finance writings (Yves Hilpisch)
-* (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with QuantConnect along with outside data to generate stock picking decisions
+* (Python) Python for Finance - Review and problem-solving mostly insprired by the 'Python for Finance' textbook (Yves Hilpisch)
+* (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with ([QuantConnect][QC] ↗) along with outside data to generate stock picking decisions
 
 * (Personal) Favorite lessons and quotes from my best professors and professional mentors
 1. VC Coworker & Mentor: 
@@ -37,69 +35,6 @@ This site is a constant work in progress, so please excuse any typos or errors i
 2. Capstone course professors: 
 >Never stop learning, maintain happiness
 3. Financial Derivatives professors: 
->Never lose sight of what's truly important- your 'why' & your 'purpose' 
+>Never lose sight of what's truly important- your "why" & your "purpose"
 
-## From this site template:
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-## section 1
-
-Jekyll also offers powerful support for code snippets:
-
-```python
-name = str(input('Your Name: '))
-def print_helloworld(name):
-    print('Hello World! \n' + ("Let's say hi to"), name + '!')
-print_helloworld(name)
-# output: 
-# Hello World!
-# Let's say hi to Luke!
-```
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-## section 2
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
+[QC]: https://quantconnect.com
