@@ -7,7 +7,7 @@ categories: projects
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4 #https://player.vimeo.com/video/537042948?title=0&portrait=0&byline=0&autoplay=1&muted=true
   loop: true
-  volume: 0.8
+  volume: 0
   start_at: 8.5
   image: https://bit.ly/3xTmdUP
   opacity: 0.618
