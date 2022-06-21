@@ -26,8 +26,10 @@ This site is a constant work in progress, so please excuse any typos or errors i
 
 ## Incoming Articles & Posts:
 
+* (Python) Where do the best wines come from? Analyzing wine ratings by origin, and determining where the best originate from 
 * (Python) Python for Finance - Review and problem-solving mostly insprired by the 'Python for Finance' textbook (Yves Hilpisch)
 * (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with ([QuantConnect][QC] ↗) along with outside data to generate stock picking decisions
+
 
 * (Personal) Favorite lessons and quotes from my best professors and professional mentors
 1. VC Coworker & Mentor: 
@@ -36,5 +38,5 @@ This site is a constant work in progress, so please excuse any typos or errors i
 >Never stop learning, maintain happiness
 3. Financial Derivatives professors: 
 >Never lose sight of what's truly important- your "why" & your "purpose"
-
+* (Personal) A note about graduating college early
 [QC]: https://quantconnect.com
