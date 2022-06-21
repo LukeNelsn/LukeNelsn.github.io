@@ -39,4 +39,6 @@ This site is a constant work in progress, so please excuse any typos or errors i
 3. Financial Derivatives professors: 
 >Never lose sight of what's truly important- your "why" & your "purpose"
 * (Personal) A note about graduating college early
+
+
 [QC]: https://quantconnect.com
