@@ -5,13 +5,13 @@ subtitle: Play Wordle in your terminal
 author: Luke
 categories: projects
 banner:
-  video: https://stream.mux.com/RPcdshtnn5q54RsZAKRCTseOIL6YvORA/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2NTU3NjI3NDYsImF1ZCI6InYiLCJzdWIiOiJSUGNkc2h0bm41cTU0UnNaQUtSQ1RzZU9JTDZZdk9SQSJ9.HC94KysO8rvv7AuE6ib-Fva3oZaXuwKJiXd2VcfjBfg1EQiIADf-gLJlR0G2Bw2jmvIluIReUNACjd0PQ9d5WanSCcv2vOuTNQWKIbzcAQit8dFpQUIavkmJgYi_0FtVLYDD5E3u8s2lTsT_nxrpAT0OaCAzArreD-pFhB9wJc2my_4wQCPe-Df44Xq61y8z5XowxrrjNm8dk1c_gAttJNS6PZxVHvwZ3Tk2XjNFHHH7sU2wvHx3Z-bw1e_RZaBg4yYy-lbS1uVDCp-CkCaAJ1Dc91-HTcRWldZ8YWsFTWXfAi1tAXwfNUdELZ3j9xSvLpPAoWLpryITvpYdLAgRRA
+  video: https://player.vimeo.com/video/435456381?title=0&portrait=0&byline=0&autoplay=1&muted=true
   loop: true
   volume: 0
   start_at: 8.5
   image: "" #https://bit.ly/3xTmdUP
   opacity: 0.618
-  background: "#000"
+  background: "#4b6da0"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold"

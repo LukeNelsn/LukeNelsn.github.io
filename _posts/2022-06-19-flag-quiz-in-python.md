@@ -5,14 +5,13 @@ subtitle: Quiz your flag knowledge in your terminal
 author: Luke
 categories: projects
 banner:
-  video: https://stream.mux.com/fg8NLVP2j6ao4CsN013Lc5p01LgglByEZW/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2NTU3NjI4MDUsImF1ZCI6InYiLCJzdWIiOiJmZzhOTFZQMmo2YW80Q3NOMDEzTGM1cDAxTGdnbEJ5RVpXIn0.cRAGROu7oTnN42pv1GOMHkiznl64aDAQ9TrhKO-iykcgaHJ6KrdCOTuJvYnOV1I0Z3UIZthYhfL-TQSsbHxgRqSNLHOrRK2tbSjmloM787TWUJmwijkNH9YoUzLExsKw_zs5UqBi9QeAoSePBpSVc50YYiF_xb3kIA-KmmoBl6KnD8MoIMjczIOE3gsKz4X2V1rq-RkRfFJR0yMBqwPLnYjK6l9bV2IaizYk4_IpJ0ymUi3cYUxanzcw_R9aOQmV5rhlbkqwP29iVKyUjxswTyqLyyuWDYb9RkDHuBU7cQxl5UCmU-OjEAyuVuZn1Nm0p2rDr2IXf9s2e9gt3659iw
-  #https://stream.mux.com/dUWi6ycKHlN58ue01b4P025rr6fpfBUVNS/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2NTU3NjI0NTMsImF1ZCI6InYiLCJzdWIiOiJkVVdpNnljS0hsTjU4dWUwMWI0UDAyNXJyNmZwZkJVVk5TIn0.DrbtKu57DxB8k8A5bntV2IPUfguAyieIsNGh7oUJxEz9-4IWnkrghjHI3xLcF2SFJJkWcdddNWtcV-qfbDKdQtD4LC1061telKEdALk-LQC4U7XtEyLnEJ_3IFiFSYWKTfai1Zs0UmSO8Ojz0aOIe3lXkVzzGEtwuX9q8qjoOvmP6d4glVjI-LFQ7TacoL_2eUwnmq6v7pKQfP1pi9c38KSCMsR1I7gNQ0yh0JHNKPJnFZVH_SgYj9k23P7I3AWWujb8G14Di0rWrR8k4pP6C7Io79za3pQ8l4Dj3THqZcrcYD60QFyGC1iRsn_hV8TbMaeGdxaYykR26eephZumEw
+  video: https://player.vimeo.com/video/565941422?title=0&portrait=0&byline=0&autoplay=1&muted=true
   loop: true
   volume: 0
   start_at: 8.5
   image: "" #https://bit.ly/3xTmdUP
   opacity: 0.618
-  background: "#000"
+  background: "#4b6da0"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold"
