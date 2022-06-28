@@ -5,13 +5,13 @@ subtitle: Quiz your flag knowledge in your terminal
 author: Luke
 categories: projects
 banner:
-  video: https://player.vimeo.com/video/565941422?title=0&portrait=0&byline=0&autoplay=1&muted=true
+  video: https://www.pexels.com/video/sea-water-blue-ocean-7513671/
   loop: true
   volume: 0
   start_at: 8.5
   image: "" #https://bit.ly/3xTmdUP
   opacity: 0.618
-  background: "#4b6da0"
+  background: "#161c1e"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold"
