@@ -5,7 +5,7 @@ subtitle: Quiz your flag knowledge in your terminal
 author: Luke
 categories: projects
 banner:
-  video: https://www.pexels.com/video/sea-water-blue-ocean-7513671/
+  video: https://assets.mixkit.co/videos/preview/mixkit-waves-crash-on-a-shore-with-boulders-1088-large.mp4
   loop: true
   volume: 0
   start_at: 8.5

@@ -5,7 +5,7 @@ subtitle: Play Wordle in your terminal
 author: Luke
 categories: projects
 banner:
-  video: https://player.vimeo.com/video/435456381?title=0&portrait=0&byline=0&autoplay=1&muted=true
+  video: https://assets.mixkit.co/videos/preview/mixkit-forest-in-the-mountains-aerial-view-1764-large.mp4
   loop: true
   volume: 0
   start_at: 8.5
