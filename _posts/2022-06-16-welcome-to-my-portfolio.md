@@ -5,8 +5,7 @@ subtitle: A quick review of what this site is all about
 author: Luke
 categories: welcome
 banner:
-  video: https://player.vimeo.com/video/438784507?title=0&portrait=0&byline=0&autoplay=1&muted=true
-  loop: true
+  video: https://assets.mixkit.co/videos/preview/mixkit-aerial-panorama-of-a-coast-and-its-reliefs-36615-large.mp4
   volume: 0
   start_at: 8.5
   image: "" #https://bit.ly/3xTmdUP
