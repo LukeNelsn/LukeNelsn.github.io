@@ -16,13 +16,13 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold"
   subheading_style: "color: white"
-tags: 
+tags: personal markdown
 sidebar: []
 ---
 
-Throughout my time at the Unversity of Colorado, and in my extra-curricular involvements, I have had the pleasure of learning and taking away valuable lessons from professors and professional mentors. I've attempted to categorize and recall the most impactful lessons learned, and here, I will try to develop a repository of these moments. Hopefully, more are yet to come, and this list will continue to grow.
+Throughout my time at the Unversity of Colorado, and in my extra-curricular involvements, I have had the pleasure of learning and taking away valuable lessons from professors and professional mentors. I've attempted to categorize and recall the most impactful lessons, and here, I will try to develop a repository of these moments. Hopefully, more are yet to come, and this list will continue to grow.
 
-# Professional Mentors
+#### Professional Mentors
 
 ### Venture Capitalist Coworker & Mentor
 >A healthy curiosity and ability to quickly acquire knowledge will enable you to operate very well and productively in any kind of entrepreneurial venture
@@ -33,7 +33,7 @@ Throughout my time at the Unversity of Colorado, and in my extra-curricular invo
 ### Young Adult Mentor
 >If it's meant to be, it's up to me. Take responsibility and own your decisions as a means to realize your potential 
 
-# Academic Professors
+#### Academic Professors
 
 ### Finance Capstone Professor
 >Never stop learning, life does not consist of linear, perfect decisions. There are twists and bends, so prepare yourself
