@@ -9,7 +9,7 @@ banner:
   loop: true
   volume: 0
   start_at: 8.5
-  image: "" #https://bit.ly/3xTmdUP
+  image: ""
   opacity: 0.618
   background: "#161c1e"
   height: "100vh"
