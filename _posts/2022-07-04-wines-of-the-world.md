@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wines of the World
+title: Wines of the World in Python
 subtitle: Where do the world's best wines come from?
 author: Luke
 categories: projects
@@ -224,9 +224,9 @@ Looks like the United Kingdom only represents **9** reviews out of 150,000+ tota
 
 ## Conclusion
 
-In total, great wines originate from around the world, and your tates will ultimately guide your purchasing decisions. However, based on the reviews and data compiled here, it appears you won't go wrong purchasing wine from Europe, and more specifically, Austria :austria:!
+In total, great wines originate from around the world, and your tastes will ultimately guide your purchasing decisions. However, based on the reviews and data compiled here, it appears you won't go wrong purchasing wine from Europe, and more specifically, Austria!
 
-Thank you for taking the time to check out this wine review analysis, all built in python, and best organized in a jupyter, all processed on your machine!
+Thank you for taking the time to check out this wine review analysis, all built in python, and best organized in a Jupyter notebook.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
 
