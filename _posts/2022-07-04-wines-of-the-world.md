@@ -20,13 +20,13 @@ tags: projects python jupyter wine
 sidebar: []
 ---
 
-Here, we will be analyzing the review data from over 150,000 wine reviews. Originating from ([WineEnthisiast][WineEnthisiast] ↗), and found on ([Kaggle.com][kaggle] ↗). All reviews originate from each of the 6 populated continents, at least those where wine could be produced! Each wine was rated on a scale of 1-100 by 19 different reviewers, only those with a rating greater than 80 are included here.
+Here, we will be analyzing the reviews of over 150,000 wine reviews originating from ([WineEnthisiast][WineEnthisiast] ↗), and found on ([Kaggle][kaggle] ↗). All reviews originate from each of the 6 populated continents, at least those where wine could be produced! Each wine was rated on a scale of 1-100 by 19 different reviewers, only those with a rating greater than 80 are included here.
 
-The data is categorized by wine variety, location, winery, price, and description. We will be primarily interested in the wine **variety** and its **location**.
+The data is categorized by wine variety, location, winery, price, and description. However, we will only use the wine **variety** and its **location**.
 
-I highly reccomend partitioning this analysis within a Jupyter notebook, processing all the data as one combined python file would be more cumbersome than needed. 
+I highly reccomend partitioning this within a Jupyter notebook, processing all the data as one combined python file would be more cumbersome than needed. 
 
-This analysis only requires the additional `winemag-data_first150k.csv` file to be stored in the same directory as your `winereviews.ipynb` (Jupyter) file, unless you want to reference the aforementioned file another way. 
+This analysis only requires the additional `winemag-data_first150k.csv` file to be stored in the same directory as your `winereviews.ipynb` file, unless you want to reference the aforementioned file another way. 
 
 > Each of these files can also be downloaded from my GitHub account ([here][github-winereviews] ↗)
 
@@ -70,6 +70,13 @@ wine = pd.read_csv('winesfolder\winemag-data_first150k.csv')
 wine = pd.DataFrame(wine)
 wine.head()
 ```
+_Example output..._
+
+| Unnamed: 0 | country | description | designation | points | price | province | region_1 | region_2 | variety | winery |
+| ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: |
+|0 | US | This tremendous 100% varietal wine hails from ... | Martha's Vineyard | 96 | 235.0 | California | Napa Valley | Napa | Cabernet Sauvignon | Heitz |
+|1 | Spain | Ripe aromas of fig, blackberry and cassis are ... | Carodorum Selección Especial Reserva | 96 | 110.0 | Northern Spain | Toro | NaN | Tinta de Toro | Bodega Carmen Rodríguez |
+
 
 #### Partition the data by continent
 
@@ -128,6 +135,17 @@ print('AS:',len(AS_wines))
 print('AF:',len(AF_wines))
 ```
 
+_Example output..._
+
+```
+NA: 62656
+EU: 65343
+OC: 8277
+SA: 11564
+AS: 810
+AF: 2275
+```
+
 #### Calculating average wine rating by continent
 
 Here, we will calculate each continent's average review points then plot the data in a neat bar chart   
@@ -163,6 +181,7 @@ for value in plot:
 plt.savefig(fname='contAverage.jpeg', dpi=300, bbox_inches='tight')
 plt.show()
 ```
+_Example output..._
 
 ![contAverage](https://raw.githubusercontent.com/LukeNelsn/winereviews/main/contAverage.jpeg)
 
@@ -203,6 +222,8 @@ for i, txt in enumerate(n):
 plt.savefig(fname='countAverages.jpeg', dpi=300, bbox_inches='tight')
 plt.show()
 ```
+_Example output..._
+
 ![countAverages](https://raw.githubusercontent.com/LukeNelsn/winereviews/main/countAverages.jpeg)
 
 Wow, it looks like the United Kingdom takes the cake for producing the highest-rated wines! How many reviews originate from each of these top 5 countries?
@@ -220,6 +241,13 @@ UK_wines = noNan_wine[noNan_wine.Country == 'United Kingdom']
 # print the number of reviews from each country
 print(len(AUT_wines),len(FRA_wines),len(GER_wines),len(ITY_wines),len(UK_wines))
 ```
+
+_Example output..._
+
+```
+3057 21099 2452 23478 9
+```
+
 Looks like the United Kingdom only represents **9** reviews out of 150,000+ total reviews. This fails to provide a significant basis to determine which nation produces the best wines. 
 
 ## Conclusion

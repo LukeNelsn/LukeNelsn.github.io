@@ -21,16 +21,19 @@ sidebar: []
 
 Hi there!
 
-My name is Luke Nelson, a recent gruaduate from the Leeds School of Business. Here you will find examples and snippets of my previous projects and current work. Although I am a business student, I have always been interested in computers and the ability to leverage our tasks with them.
+My name is Luke Nelson, a recent gruaduate from the Leeds School of Business. Here you will find snippets of my previous projects and current work. Although I studied finance and information management, I have always been interested in computers and the ability to leverage our tasks with them.
 
-This site is a constant work in progress, so please excuse any typos or errors in it's development 
+This site is a constant work in progress, so please excuse any typos or errors in it's development...
 
 ## Incoming Articles & Posts:
 
 
 * (Python) Python for Finance - Review and problem-solving mostly insprired by the 'Python for Finance' textbook (Yves Hilpisch)
 * (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with ([QuantConnect][QC] ↗) along with outside data to generate stock picking decisions
+* (Python) Formula 1 data analytics (e.g. teammate lap time spreads; which teammates are the furthest (or closest) in their lap times)
 
-* (Personal) A note about graduating college early
+
+* (Personal) A note about graduating college early, especially as it relates to the finance industry
+* (Personal) A discussion on value, how its generated, derived, and how it relates to recent trends 
 
 [QC]: https://quantconnect.com
