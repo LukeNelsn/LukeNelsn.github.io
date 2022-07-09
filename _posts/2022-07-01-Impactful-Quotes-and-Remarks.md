@@ -45,3 +45,9 @@ Throughout my time at the Unversity of Colorado, and in my extra-curricular invo
 >Never lose sight of what's truly important. Find your "why" and your "purpose". These may take a while to determine but will assist/guide major decisions. No one will care about your academic performance in a matter of years, true meaning, value, and authenticity are what truly matter
 
 As mentioned above, I hope to continuously add to this list. I've found that many of these points are useful to refer back to, and provide guiding principles when facing uncertainty.
+
+Thank you for taking the time to check out this post, all built in markdown.
+
+If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
+
+[github-account]: https://github.com/lukenelsn
