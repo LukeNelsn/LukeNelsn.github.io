@@ -1,23 +1,9 @@
 ---
 layout: post
-title: My Experience
+title: My Experience - TEST
 subtitle: Past and current experience in extended form, PDF version of my resume available below
-author: Luke
 categories: personal
-banner:
-  video: https://assets.mixkit.co/videos/preview/mixkit-cliffs-in-the-sea-aerial-shot-1952-large.mp4
-  loop: true
-  volume: 0
-  start_at: 8.5
-  image: ""
-  opacity: 0.618
-  background: "#161c1e"
-  height: "100vh"
-  min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold"
-  subheading_style: "color: white"
-tags: welcome experience markdown
-sidebar: []
+tags: [welcome experience markdown]
 ---
 
 ### Experience
@@ -100,6 +86,10 @@ PDF version available ([here][PDF] ↗)
 Thank you for taking the time to check out my experience, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
+
+Hey I really like this podcast below!
+
+![](https://open.spotify.com/episode/4xRpAohWJWjp6sg1ofgBOQ?si=d8c74f49857d4060)
 
 [github-account]: https://github.com/lukenelsn
 [PDF]: https://lukenelsn.github.io/assets/Luke-Nelson-Resume.pdf
