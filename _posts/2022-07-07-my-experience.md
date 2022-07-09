@@ -45,7 +45,7 @@ Performing business valuations for the purposes of:
 - Researched acquisition and partnership targets, performed financial due diligence, and built individualized pitch decks
 - Repaired broken excel files, adding macros to streamline workflow processes, and documenting fixes
 
-**Watercan**, Denver, Colorado \ Co-Founder (A startup attempt)
+**Watercan**, Denver, Colorado \ Co-Founder (startup attempt)
 
 Watercan strives to provide an environmentally-conscious solution to single-serving drinking water
 - Bootstrapping our initial production run of minimum viable products
