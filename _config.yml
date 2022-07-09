@@ -139,7 +139,7 @@ yat:
 # code_badge:
 #   enabled: "true"
 #   color: "#fff"
-#   background_color: "#ff4e00"
+#   background_color: "#708E91"
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
