@@ -2,22 +2,8 @@
 layout: post
 title: Impactful Quotes and Remarks
 subtitle: A collection lessons and quotes from my best professors and professional mentors
-author: Luke
 categories: personal
-banner:
-  video: https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-manor-house-in-a-hilly-orchard-8603-large.mp4
-  loop: true
-  volume: 0
-  start_at: 8.5
-  image: "" 
-  opacity: 0.618
-  background: "#161c1e"
-  height: "100vh"
-  min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold"
-  subheading_style: "color: white"
 tags: personal markdown
-sidebar: []
 ---
 
 Throughout my time at the Unversity of Colorado, and in my extra-curricular involvements, I have had the pleasure of learning and taking away valuable lessons from professors and professional mentors. I've attempted to categorize and recall the most impactful lessons, and here, I will try to develop a repository of these moments. Hopefully, more are yet to come, and this list will continue to grow.
