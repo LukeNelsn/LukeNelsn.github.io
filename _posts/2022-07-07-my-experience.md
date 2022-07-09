@@ -2,22 +2,8 @@
 layout: post
 title: My Experience
 subtitle: Past and current experience in extended form, PDF version of my resume available below
-author: Luke
 categories: personal
-banner:
-  video: https://assets.mixkit.co/videos/preview/mixkit-cliffs-in-the-sea-aerial-shot-1952-large.mp4
-  loop: true
-  volume: 0
-  start_at: 8.5
-  image: ""
-  opacity: 0.618
-  background: "#161c1e"
-  height: "100vh"
-  min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold"
-  subheading_style: "color: white"
 tags: welcome experience markdown
-sidebar: []
 ---
 
 ### Experience
