@@ -8,24 +8,25 @@ tags: welcome experience markdown
 
 ### Experience
 
-**Intrinsic**, Denver, Colorado \ Valuation Associate
+[**Intrinsic**][Intrinsic], Denver, Colorado \ Valuation Associate
 
-Performing business valuations for the purposes of:
-- Mergers & acquisitions
-- Reporting of intangible assets 
-- Stock-based compensation plans 
-- Fair value measurement
+Performing business valuations for the purposes of financial and tax reporting:
+- ASC 805: Purchse price allocation following mergers and acquisitions
+- ASC 350: Impairment of goodwill folowing mergers and acquisitions
+- ASC 718: Valuation for equity compensation plans
+- 409A: Fair value assessment for stock-based compensation plans
 
-**Quish**, Boulder, Colorado \ Finance & Accounting Intern
+
+[**Quish**][Quish], Boulder, Colorado \ Finance & Accounting Intern
 
 - Analyzing wealth management and family office client performance on a monthly and quarterly basis
 - Built client-facing portal system to provide each client with their unique repository of information
 - Built client-facing fee statement system 
 - Corresponded with, and onboarded clients to the Charles Schwab advisor platform
 
-**Cuvée**, Denver, Colorado \ Business Development Intern
+[**Cuvée**][Cuvee], Denver, Colorado \ Business Development Intern
 
-- Analyzed public and private data to research and identify profitable vacation destinations for company expansion
+- Analyzed public and private data to research and identify profitable vacation destinations for company expansion; resulting in over $100 million of portfolio acquisitions
 - Built a revenue potential model in which multiple reports are inputted, and summaries are calculated by quarter and year
 - Analyzed and cross-sectioned sales data with pivot tables to identify growth opportunities
 - Researched acquisition and partnership targets, performed financial due diligence, and built individualized pitch decks
@@ -87,5 +88,8 @@ Thank you for taking the time to check out my experience, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
 
+[Intrinsic]: https://intrinsicfirm.com
+[Quish]: https://quishco.com
+[Cuvee]: https://cuvee.com
 [github-account]: https://github.com/lukenelsn
 [PDF]: https://lukenelsn.github.io/assets/Luke-Nelson-Resume.pdf

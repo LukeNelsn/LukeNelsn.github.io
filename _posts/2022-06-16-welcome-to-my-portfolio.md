@@ -28,12 +28,12 @@ This site is a constant work in progress, so please excuse any typos or errors i
 ## Incoming Articles & Posts:
 
 
-* (Python) Python for Finance - Review and problem-solving mostly insprired by the 'Python for Finance' textbook (Yves Hilpisch)
-* (Python) Congressional Stock Picking / Algorythmic trading - Incorporating Python with ([QuantConnect][QC] ↗) along with outside data to generate stock picking decisions
-* (Python) Formula 1 data analytics (e.g. teammate lap time spreads; which teammates are the furthest (or closest) in their lap times)
+### Python
+* Python for Finance - Review and problem-solving mostly insprired by the 'Python for Finance' textbook (Yves Hilpisch)
+* Formula 1 data analytics (e.g. teammate lap time spreads; which teammates are the furthest (or closest) in their lap times)
 
-
-* (Personal) A note about graduating college early, especially as it relates to the finance industry
-* (Personal) A discussion on value, how its generated, derived, and how it relates to recent trends 
+### Personal
+* A note about graduating college early, especially as it relates to the finance industry
+* Some helpful tools for college course planning, internship/ job applications, and financial planning 
 
 [QC]: https://quantconnect.com
