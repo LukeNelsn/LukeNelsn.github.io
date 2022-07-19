@@ -24,7 +24,7 @@ I’m writing this to give some guidance and direction to those in a similar sit
 
 ### Undergrad
 
-I just finished by Bachelor's of Science in Business Administration, emphasizing in Finance and Information Management in 2 years, 9 months, 1 day (to be exact)
+I just finished by Bachelor's of Science in Business Administration, emphasizing in Finance and Information Management in 2 years, 9 months, 1 day (to be exact).
 
 Some cheat codes to your undergraduate education:
 -	Take general education courses through a local community college over your summers. You can combine ~9 credits with a full-time job (yes, you’ll be busy) and graduate earlier. Transfer these into your 4-year institution, and double check with (1) [Transferology][Transferology] to ensure your community college credits transfer to your primary university, (2) your primary university academic advisor to ensure the credits will be accepted, and (3) your community college academic advisor to ensure the credits will transfer as expected.
@@ -47,14 +47,14 @@ A few notes...
 #### Benefits of interning locally: 
 - You can end up with 14+ months of experience between two positions.
 - Local firms have been extremely flexible with scheduling and remote work. They understand your priority is school and are often willing to let you choose your schedule.
-- They have both paid above average hourly rates and especially understand that living as a college student isn’t very affordable (as most college towns are not)
+- They have both paid above average hourly rates and especially understand that living as a college student isn’t very affordable (as most college towns are not).
 
 #### Downsides of interning locally:
 - Neither of these firms are household names, public companies, nor very large in employee headcount.
 - I’ve had to explain each position and each firm’s line of business during nearly every interview, rather than selling myself and my skills.
-- With smaller firm size comes a lack of structured intern to full-time programs. Neither firm is large enough to recruit (on a semester or annual basis) a full class or even a few interns, let alone offer them a full-time position after graduation
+- With smaller firm size comes a lack of structured intern to full-time programs. Neither firm is large enough to recruit (on a semester or annual basis) a full class or even a few interns, let alone offer them a full-time position after graduation.
 
-Even with those disadvantages, I’ve thoroughly enjoyed interning at local firms, and highly encourage it to anyone else who doesn’t want to take on the traditional finance route
+Even with those disadvantages, I’ve thoroughly enjoyed interning at local firms, and highly encourage it to anyone else who doesn’t want to take on the traditional finance route.
 
 ### Interviewing 
 
