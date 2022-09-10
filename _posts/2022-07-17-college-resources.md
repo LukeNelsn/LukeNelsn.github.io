@@ -68,7 +68,7 @@ Below are a few tips for interviewing, no matter your experience or graduation t
 
 **3. Dress appropriately**; whether you’re interviewing in person or virtually, be sure to dress and prepare your appearance accordingly. If you’re interviewing virtually, place yourself in a quiet, well-lit room, where outside noise is minimized and you can appear as clearly as possible. Additionally, clean up your background and remove any distractions from your background, whether it's on the wall, or in the foreground. If you’re interviewing in person, dress slightly above the job’s standard attire, for example, if the workplace typically dresses in business casual, dress for your interview in business professional. Additionally, make sure you arrive with printed resumes and bring a notebook and pen to take down any important notes. No matter which way you interview, arrive 5-10 minutes early, present yourself with confidence, and treat others with kindness.
 
-In total, interviewing is a learned skill that improves with repetition and feedback. If you can, find a few friends to give you mock interviews, or apply to other "backup" jobs to practice interviewing before you go for your "dream position. 
+In total, interviewing is a learned skill that improves with repetition and feedback. If you can, find a few friends to give you mock interviews, or apply to other "backup" jobs to practice interviewing before you go for your "dream" position. 
 
 [Semester Planning]: https://lukenelsn.github.io/assets/Semester-Planning.xlsx
 [Job Search]: https://lukenelsn.github.io/assets/Internship-and-Job-Search.xlsx
