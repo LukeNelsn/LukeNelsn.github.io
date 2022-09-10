@@ -58,7 +58,17 @@ Even with those disadvantages, I’ve thoroughly enjoyed interning at local firm
 
 ### Interviewing 
 
-Coming soon...
+When it comes to interviewing and discussing your early graduation, I found it most useful to provide brief and concise reasons for this decision. I never focused my interview or its discussion on my early graduation, rather focusing on the reasons why I was the best applicant for the position in question, and why I add more value to the organization than other candidates. 
+
+Below are a few tips for interviewing, no matter your experience or graduation timeline:
+
+**1. Practice, practice, practice**; you never want to interview for your "dream" position without prior interview practice. Get comfortable discussing your past experience, performance, and accomplishments. Practice and refine your answers to the most common interview questions, and prepare for any questions you anticipate will come up. For example, if you're interviewing for an entry-level finance position, you are likely to discuss the markets, economic trends, and the time value of money / the discounted cash flow method, so prepare and practice your answer, and make sure to deliver your responses in a very natural tone.
+
+**2. Research the employer**; understand the line of business and fundamentals of the organization you're applying to, and try to learn about their key customers or markets. This will become most apparent when the interviewer reaches the end of the interview, and will most likely ask you if “you have any questions for me / us?” At this moment, you can separate yourself from other applicants with clear, pointed, and smart questions about the organization. Additionally, these can be enhanced with details about the organization which you learned about on your own. Of course, if there are any position-related questions which come to mind during the interview, be sure to clear them at this time, or discuss any additional thoughts which came to mind.
+
+**3. Dress appropriately**; whether you’re interviewing in person or virtually, be sure to dress and prepare your appearance accordingly. If you’re interviewing virtually, place yourself in a quiet, well-lit room, where outside noise is minimized and you can appear as clearly as possible. Additionally, clean up your background and remove any distractions from your background, whether it's on the wall, or in the foreground. If you’re interviewing in person, dress slightly above the job’s standard attire, for example, if the workplace typically dresses in business casual, dress for your interview in business professional. Additionally, make sure you arrive with printed resumes and bring a notebook and pen to take down any important notes. No matter which way you interview, arrive 5-10 minutes early, present yourself with confidence, and treat others with kindness.
+
+In total, interviewing is a learned skill that improves with repetition and feedback. If you can, find a few friends to give you mock interviews, or apply to other "backup" jobs to practice interviewing before you go for your "dream position. 
 
 [Semester Planning]: https://lukenelsn.github.io/assets/Semester-Planning.xlsx
 [Job Search]: https://lukenelsn.github.io/assets/Internship-and-Job-Search.xlsx
