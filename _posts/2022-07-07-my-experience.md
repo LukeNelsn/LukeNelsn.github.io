@@ -7,7 +7,7 @@ tags: welcome experience markdown
 ---
 ### Experience
 ---
-[**Intrinsic**] [**| we're hiring ↗**], Denver, Colorado \ Valuation Associate
+[**Intrinsic | we're hiring ↗**], Denver, Colorado \ Valuation Associate
 
 Performing business valuations for the purposes of financial and tax reporting:
 - IRC 409A: Fair value assessment for stock-based compensation plans
@@ -90,8 +90,7 @@ Thank you for taking the time to check out my experience, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
 
-[**Intrinsic**]: https://intrinsicfirm.com
-[**| we're hiring ↗**]: https://grnh.se/b01076795us
+[**Intrinsic | we're hiring ↗**]: https://grnh.se/b01076795us
 [**Quish**]: https://quishco.com
 [**Cuvée**]: https://cuvee.com
 [Finance]: https://www.colorado.edu/business/academic-programs/undergraduate-programs/finance
