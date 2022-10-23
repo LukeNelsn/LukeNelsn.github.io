@@ -9,7 +9,7 @@ tags: personal markdown
 Throughout my time at the Unversity of Colorado, and in my extra-curricular involvements, I have had the pleasure of learning and taking away valuable lessons from professors and professional mentors. I've attempted to categorize and recall the most impactful lessons, and here, I will try to develop a repository of these moments. Hopefully, more are yet to come, and this list will continue to grow.
 
 ### Professional Mentors
-
+---
 # Venture Capitalist Coworker & Mentor
 >A healthy curiosity and ability to quickly acquire knowledge will enable you to operate very well and productively in any kind of entrepreneurial venture
 
@@ -20,7 +20,7 @@ Throughout my time at the Unversity of Colorado, and in my extra-curricular invo
 >If it's meant to be, it's up to me. Take responsibility and own your decisions as a means to realize your potential 
 
 ### Academic Professors
-
+---
 # Finance Capstone Professor
 >Never stop learning, life does not consist of linear, perfect decisions. There are twists and bends, so prepare yourself
 
@@ -32,6 +32,7 @@ Throughout my time at the Unversity of Colorado, and in my extra-curricular invo
 
 As mentioned above, I hope to continuously add to this list. I've found that many of these points are useful to refer back to, and provide guiding principles when facing uncertainty.
 
+---
 Thank you for taking the time to check out this post, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)

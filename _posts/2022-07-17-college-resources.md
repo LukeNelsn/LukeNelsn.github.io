@@ -11,7 +11,7 @@ As I've reflected on my time in college, a few notbale moments come to mind. Her
 Below is a discussion and some important points I want to share about early graudation, and the serious considerations that need to be taken into account when choosing to graduate early.
 
 ## Useful Sheets
-
+--- 
 [**Semester Planning**][Semester Planning] - Built to help with 3 and 4 year plans, along with class scheduling
 
 [**Internship / Job Searching**][Job Search] - Built to help track and prioritize all internship and job applications
@@ -20,6 +20,7 @@ Below is a discussion and some important points I want to share about early grau
 
 
 ## Early Graduation
+---
 I’m writing this to give some guidance and direction to those in a similar situation as I, and to help shed some light on an alternative education path into the finance industry.
 
 ### Undergrad
@@ -70,6 +71,7 @@ Below are a few tips for interviewing, no matter your experience or graduation t
 
 In total, interviewing is a learned skill that improves with repetition and feedback. If you can, find a few friends to give you mock interviews, or apply to other "backup" jobs to practice interviewing before you go for your "dream" position. 
 
+---
 Thank you for taking the time to check out my college resources, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)

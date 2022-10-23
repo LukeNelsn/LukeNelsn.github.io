@@ -7,7 +7,7 @@ tags: welcome experience markdown
 ---
 
 ### Experience
-
+---
 [**Intrinsic**][Intrinsic], Denver, Colorado \ Valuation Associate
 
 Performing business valuations for the purposes of financial and tax reporting:
@@ -48,7 +48,7 @@ Watercan strives to provide an environmentally-conscious solution to single-serv
 - Overcome obstacles and variables to maintain production efficiency, meet deadlines and achieve high levels of profitability, allowing for the company to grow into larger locations and reach more customers
 
 ### Education
-
+---
 **University of Colorado Boulder** – Leeds School of Business
 
 Bachelor of Science in Business Administration with an emphasis in Finance and Information Management & Analytics
@@ -60,7 +60,7 @@ Cumulative GPA: 3.71/4.00
 
 
 ### Leadership and Activities
-
+---
 **Alpha Kappa Psi - Gamma Zeta Chapter**, Boulder, Colorado \ Member
 
 - Live up to the core values of Brotherhood, Unity, Knowledge, Integrity, and Service
@@ -71,7 +71,7 @@ Cumulative GPA: 3.71/4.00
 - Analyze market trends and patterns to expand financial literacy and study key investment strategies
 
 ### Skills and Additional Information
-
+---
 - Advanced skills in Microsoft Word, PowerPoint, & Excel (dynamic modeling, pivot tables, complex formulas)
 - Completion of Financial Modeling & Valuation Analyst course from Corporate Finance Institute
 - Completion of Bloomberg Market Concepts course
@@ -84,6 +84,7 @@ Cumulative GPA: 3.71/4.00
 
 PDF version available ([here][PDF] ↗)
 
+---
 Thank you for taking the time to check out my experience, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
