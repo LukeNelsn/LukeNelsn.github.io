@@ -11,10 +11,10 @@ tags: welcome experience markdown
 [**Intrinsic**][Intrinsic], Denver, Colorado \ Valuation Associate
 
 Performing business valuations for the purposes of financial and tax reporting:
-- ASC 805: Purchse price allocation following mergers and acquisitions
+- ASC 805: Purchase price allocation following mergers and acquisitions
 - ASC 350: Impairment of goodwill folowing mergers and acquisitions
 - ASC 718: Valuation for equity compensation plans
-- 409A: Fair value assessment for stock-based compensation plans
+- IRC 409A: Fair value assessment for stock-based compensation plans
 
 
 [**Quish**][Quish], Boulder, Colorado \ Finance & Accounting Intern

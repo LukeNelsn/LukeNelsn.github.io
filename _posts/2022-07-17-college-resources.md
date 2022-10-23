@@ -70,7 +70,12 @@ Below are a few tips for interviewing, no matter your experience or graduation t
 
 In total, interviewing is a learned skill that improves with repetition and feedback. If you can, find a few friends to give you mock interviews, or apply to other "backup" jobs to practice interviewing before you go for your "dream" position. 
 
+Thank you for taking the time to check out my college resources, all built in markdown.
+
+If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
+
 [Semester Planning]: https://lukenelsn.github.io/assets/Semester-Planning.xlsx
 [Job Search]: https://lukenelsn.github.io/assets/Internship-and-Job-Search.xlsx
 [Financial Analysis]: https://lukenelsn.github.io/assets/First-Year-Financial-Analysis.xlsx
 [Transferology]: https://transferology.com
+[github-account]: https://github.com/lukenelsn
