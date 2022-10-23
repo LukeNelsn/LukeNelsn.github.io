@@ -23,7 +23,7 @@ Below are some of my highly recommended reads, podcasts, and other media. This p
 
 These are sorted in no particular order
 
-## Reading
+### Reading
 ---
 # Naval Ravikant
 [**The Almanack of Naval Ravikant**]
@@ -45,7 +45,7 @@ A broad and concrete foundation of physics and other complex concepts
 [**Turbulent Passage, a Global History of the Twentieth Century**]
 A focused dialogue of 20th century world history, without the typical North American focus 
 
-## Podcasts
+### Podcasts
 ---
 # Chamath Palihapitiya, Jason Calacanis, David Sacks & David Friedberg
 [**The All-In Podcast**]
@@ -72,6 +72,7 @@ A weekly in-depth review of macroeconomic factors and trends impacting us all, a
 A series of intriguing and intellectually curious interviews on the topics of science, technology, and philosophy
 
 --- 
+
 Thank you for taking the time to check out my favorite readings and podcasts, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
