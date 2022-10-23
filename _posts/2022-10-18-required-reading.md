@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Required Reading
-subtitle: Personal favorites and broad reccomendations for those interested in pushing themselves to new heights
+subtitle: Personal favorites and broad recommendations for those interested in pushing themselves to new heights
 author: Luke
 categories: personal
 banner:
