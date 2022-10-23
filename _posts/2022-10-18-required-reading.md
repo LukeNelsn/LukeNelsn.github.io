@@ -25,51 +25,51 @@ These are sorted in no particular order
 
 ## Reading
 ---
-## Naval Ravikant
+# Naval Ravikant
 [**The Almanack of Naval Ravikant**]
-: A concise guide to building wealth, practicing happiness, and maintaining your health
+A concise guide to building wealth, practicing happiness, and maintaining your health
 
-## Nassim Taleb
+# Nassim Taleb
 [**Skin in the Game**]
-: Formulate mental models when considering complex decisions
+Formulate mental models when considering complex decisions
 
-## Yves Hilpisch
+# Yves Hilpisch
 [**Python for Finance**]
-: Refine your python data structure skills with real-world finance topics
+Refine your python data structure skills with real-world finance topics
 
-## David Deutsch
+# David Deutsch
 [**The Beginning of Infinity**]
-: A broad and concrete foundation of physics and other complex concepts
+A broad and concrete foundation of physics and other complex concepts
 
-## Michael Adas
+# Michael Adas
 [**Turbulent Passage, a Global History of the Twentieth Century**]
-: A focused dialogue of 20th century world history, without the typical North American focus 
+A focused dialogue of 20th century world history, without the typical North American focus 
 
 ## Podcasts
 ---
-## Chamath Palihapitiya, Jason Calacanis, David Sacks & David Friedberg
+# Chamath Palihapitiya, Jason Calacanis, David Sacks & David Friedberg
 [**The All-In Podcast**]
-: An in-depth review of venture capital, macroeconomic events, and cutting edge bioscience
+An in-depth review of venture capital, macroeconomic events, and cutting edge bioscience
 
-## Jason Calacanis and Molly Wood
+# Jason Calacanis and Molly Wood
 [**This Week in Startups**]
-: A daily update on startup trends, news on young and exciting companies, and analysis of industry factors that impact up-and-coming companies 
+A daily update on startup trends, news on young and exciting companies, and analysis of industry factors that impact up-and-coming companies 
 
-## Naval Ravikant
+# Naval Ravikant
 [**The Naval Podcast**]
-: A brief and thorough series on similar topics covered in Naval's Almanack, and interviews with significant market participants
+A brief and thorough series on similar topics covered in Naval's Almanack, and interviews with significant market participants
 
-## Stig Brodersen, Trey Lockerbie, and Clay Finck
+# Stig Brodersen, Trey Lockerbie, and Clay Finck
 [**We Study Billionaires**]
-: A series of analysis and curated interivews with big names in finance, investing, and economics
+A series of analysis and curated interivews with big names in finance, investing, and economics
 
-## Stephen Dubner
+# Stephen Dubner
 [**Freakonomics Radio**]
-: A weekly in-depth review of macroeconomic factors and trends impacting us all, along with thorough narratives from industry leaders
+A weekly in-depth review of macroeconomic factors and trends impacting us all, along with thorough narratives from industry leaders
 
 # Lex Friedman
 [**The Lex Friedman Podcast**]
-: A series of intriguing and intellectually curious interviews on the topics of science, technology, and philosophy
+A series of intriguing and intellectually curious interviews on the topics of science, technology, and philosophy
 
 --- 
 Thank you for taking the time to check out my favorite readings and podcasts, all built in markdown.
