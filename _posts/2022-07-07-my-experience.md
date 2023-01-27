@@ -9,15 +9,15 @@ tags: welcome experience markdown
 ---
 [**Intrinsic | we're hiring ↗**], Denver, Colorado \ Valuation Associate
 
-Performing business valuations for the purposes of financial and tax reporting:
-- IRC 409A: Fair value assessment for stock-based compensation plans
-- ASC 805: Purchase price allocation following mergers and acquisitions
-- ASC 350: Impairment of goodwill folowing mergers and acquisitions
-- ASC 718: Valuation for equity compensation plans
+Performing business valuations for the purposes of tax reporting, specifically:
+- IRC 409A: Fair market value assessment for stock-based compensation plans, including valuations involving complex capitalization structures
+- Estate and Gift Tax: Fair market value assessment for private, closely-held businesses and estates
+- Iteratively designing and improving internal valuation models and template 
+
 
 [**Quish**], Boulder, Colorado \ Finance & Accounting Intern
 
-- Analyzing wealth management and family office client performance on a monthly and quarterly basis
+- Analyzed wealth management and family office client performance on a monthly and quarterly basis
 - Built client-facing portal system to provide each client with their unique repository of information
 - Built client-facing fee statement system 
 - Corresponded with, and onboarded clients to the Charles Schwab advisor platform
@@ -73,12 +73,12 @@ Cumulative GPA: 3.71/4.00
 ### Skills and Additional Information
 ---
 - Advanced skills in Microsoft Word, PowerPoint, and Excel (dynamic modeling, pivot tables, complex formulas, macros, and Capital IQ formulas)
-- Completion of Training the Street Valuation Essentials course
-- Completion of Financial Modeling & Valuation Analyst certification from Corporate Finance Institute
-- Completion of Bloomberg Market Concepts certification
+- Completion of [Training the Street] Valuation Essentials course
+- Completion of [Financial Modeling & Valuation Analyst] certification from Corporate Finance Institute
+- Completion of [Bloomberg Market Concepts] certification
 - Intermediate Python skills (data structures, dataframes, functions, file reading and writing, familiarity with pandas and NumPy)
 - Intermediate SQL skills (advanced joins and analytics, in-line views, familiarity with Google BigQuery and DataRobot)
-- Completion of Alteryx Designer Core certification 
+- Completion of [Alteryx Designer Core] certification 
 - Eagle Scout Rank achieved with two Eagle Palms, Bronze and Gold; June 2018 from Troop 780 Castle Rock
 - Planned and lead Eagle Scout project to plant over 90 pine trees, contributing to the education of local elementary students
 - Contributed over 300 hours of community service
@@ -98,5 +98,9 @@ If you're interested in more, checkout my other projects on this site or visit m
 [New Venture Challenge]: https://www.colorado.edu/nvc/
 [**Alpha Kappa Psi - Gamma Zeta Chapter**]: http://www.akpsigz.com/
 [**Leeds Investment and Trading Group**]: https://www.litgroupcu.com/
-[github-account]: https://github.com/lukenelsn
+[Training the Street]: https://trainingthestreet.com/
+[Financial Modeling & Valuation Analyst]: https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/
+[Bloomberg Market Concepts]: https://www.bloomberg.com/professional/product/bloomberg-market-concepts/
+[Alteryx Designer Core]:https://community.alteryx.com/t5/Certification/bd-p/product-certification
 [PDF]: https://lukenelsn.github.io/assets/Luke-Nelson-Resume.pdf
+[github-account]: https://github.com/lukenelsn
