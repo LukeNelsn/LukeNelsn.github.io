@@ -7,13 +7,18 @@ tags: welcome experience markdown
 ---
 ### Experience
 ---
-[**Intrinsic | we're hiring ↗**], Denver, Colorado \ Valuation Associate
+[**Bennett Thrasher | We're hiring ↗**], Denver, Colorado \ Valuation Senior Analyst
 
-Performing business valuations for the purposes of tax reporting, specifically:
-- IRC 409A: Fair market value assessment for stock-based compensation plans, including valuations involving complex capitalization structures
-- Estate and Gift Tax: Fair market value assessment for private, closely-held businesses and estates
-- Iteratively designing and improving internal valuation models and template 
+- Performing fair market value valuation analysis on a variety of private entities within various industries using accepted and relevant valuation approaches and theory utilizing discounted cash flow, market multiples, and option pricing models 
+- Collecting and reviewing client and market data pertinent to each engagement by performing economic, industry, market, and competitor research 
+- Iteratively improving and enhancing valuation models and tools to drive engagement efficiencies, minimize redundancies, and maximize accuracy
 
+[**Intrinsic**], Denver, Colorado \ Valuation Senior Associate
+
+- Performed fair market value valuation analysis on a variety of private entities within various industries using accepted and relevant valuation approaches and theory utilizing discounted cash flow, market multiples, and option pricing models 
+- Collected and reviewed client and market data pertinent to each engagement by performing economic, industry, market, and competitor research 
+- Iteratively improved and enhanced valuation models and tools to drive engagement efficiencies, minimize redundancies, and maximize accuracy
+- Tax-reporting valuation team of Intrinsic was acquired by [Bennett Thrasher in September 2023] 
 
 [**Quish**], Boulder, Colorado \ Finance & Accounting Intern
 
@@ -54,7 +59,7 @@ Bachelor of Science in Business Administration with an emphasis in [Finance] and
 
 Cumulative GPA: 3.71/4.00
 
-- **Relevant Projects**: Participant of [New Venture Challenge] in which I collaborated with peers and program mentors to develop and bring to market a new brand, product, and unique sales proposition. Our Prodict, Watercan, was an early-stage, pre-seed funding startup with the goal of delivering highly sustainable, canned water to consumers.
+- **Relevant Projects**: Participant of [New Venture Challenge] in which I collaborated with peers and program mentors to develop and bring to market a new brand, product, and unique sales proposition. Our Product, Watercan, was an early-stage, pre-seed funding startup with the goal of delivering highly sustainable, canned water to consumers.
 - **Relevant Courses**: Derivative Securities, Investment and Portfolio Management, Principles & Fundamentals of Financial Analysis, Business Data Management
 
 ### Leadership and Activities
@@ -90,7 +95,9 @@ Thank you for taking the time to check out my experience, all built in markdown.
 
 If you're interested in more, checkout my other projects on this site or visit my GitHub account ([here][github-account] ↗)
 
-[**Intrinsic | we're hiring ↗**]: https://grnh.se/b01076795us
+[**Bennett Thrasher | We're hiring ↗**]: https://www.btcpa.net/careers
+[**Intrinsic**]: https://www.intrinsicfirm.com/
+[Bennett Thrasher in September 2023]: https://www.btcpa.net/news/bennett-thrasher-continues-growth-with-acquisition-of-valuation-practice-in-denver
 [**Quish**]: https://quishco.com
 [**Cuvée**]: https://cuvee.com
 [Finance]: https://www.colorado.edu/business/academic-programs/undergraduate-programs/finance
