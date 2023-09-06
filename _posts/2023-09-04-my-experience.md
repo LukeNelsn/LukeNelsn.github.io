@@ -13,12 +13,14 @@ tags: welcome experience markdown
 - Collecting and reviewing client and market data pertinent to each engagement by performing economic, industry, market, and competitor research 
 - Iteratively improving and enhancing valuation models and tools to drive engagement efficiencies, minimize redundancies, and maximize accuracy
 
+> The tax-reporting valuation practice of Intrinsic was acquired by [Bennett Thrasher in September 2023] 
+
 [**Intrinsic**], Denver, Colorado \ Valuation Senior Associate
 
 - Performed fair market value valuation analysis on a variety of private entities within various industries using accepted and relevant valuation approaches and theory utilizing discounted cash flow, market multiples, and option pricing models 
 - Collected and reviewed client and market data pertinent to each engagement by performing economic, industry, market, and competitor research 
 - Iteratively improved and enhanced valuation models and tools to drive engagement efficiencies, minimize redundancies, and maximize accuracy
-- Tax-reporting valuation team of Intrinsic was acquired by [Bennett Thrasher in September 2023] 
+
 
 [**Quish**], Boulder, Colorado \ Finance & Accounting Intern
 
