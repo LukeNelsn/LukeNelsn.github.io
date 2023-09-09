@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Flags of the World Quiz in Python | Luke Nelson</title>
+<meta name="generator" content="Jekyll v4.3.2">
+<meta property="og:title" content="Flags of the World Quiz in Python">
+<meta name="author" content="Luke">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This simple and fun game can be played from your own terminal, all with some simple python scripts.">
+<meta property="og:description" content="This simple and fun game can be played from your own terminal, all with some simple python scripts.">
+<link rel="canonical" href="https://lukenelsn.github.io/jekyll-theme-yat/projects/2022/06/19/flag-quiz-in-python.html">
+<meta property="og:url" content="https://lukenelsn.github.io/jekyll-theme-yat/projects/2022/06/19/flag-quiz-in-python.html">
+<meta property="og:site_name" content="Luke Nelson">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-06-19T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Flags of the World Quiz in Python">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luke"},"dateModified":"2022-06-19T00:00:00+00:00","datePublished":"2022-06-19T00:00:00+00:00","description":"This simple and fun game can be played from your own terminal, all with some simple python scripts.","headline":"Flags of the World Quiz in Python","mainEntityOfPage":{"@type":"WebPage","@id":"https://lukenelsn.github.io/jekyll-theme-yat/projects/2022/06/19/flag-quiz-in-python.html"},"url":"https://lukenelsn.github.io/jekyll-theme-yat/projects/2022/06/19/flag-quiz-in-python.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/LukeNelsn/LukeNelsn.github.io/d9c2ba4ead96254ef17cecb607392220ab6b0b90/lukeAnimoji.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://lukenelsn.github.io/jekyll-theme-yat/feed.xml" title="Luke Nelson">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Luke Nelson" src="https://raw.githubusercontent.com/LukeNelsn/LukeNelsn.github.io/d9c2ba4ead96254ef17cecb607392220ab6b0b90/lukeAnimoji.png" onerror="this.style.display='none'">
+  Luke Nelson
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a>
+
+
+
+
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner {
+      background: #161c1e;
+    }
+  </style>
+<style>html .page-banner {
+      height:  36.8vh;
+      min-height: 38vh;
+    }
+    html[data-scroll-status="top"] .page-banner {
+      height: 100vh;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.618;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.443724;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(1) {
+      font-size: 4.25em; font-weight: bold
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(2) {
+      color: white
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<video autoplay="" poster="/jekyll-theme-yat" playsinline>
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-waves-crash-on-a-shore-with-boulders-1088-large.mp4">
+        </source></video>
+        <script>
+          (function() {
+            var video = document.querySelector('.page-banner .page-banner-img > video');
+            var videoPlay = function() {
+              video.play().catch (function() {
+                  video.muted = true;
+                  video.play();
+                });
+            }
+
+            video.onloadstart = function() {
+              video.currentTime = 8.5;
+              video.volume = 0;
+              video.muted = (video.volume == 0);
+              videoPlay();
+            }
+
+            video.onended = function() {
+              video.currentTime = 8.5;
+              video.volume = 0;video.play();}
+          })();
+        </script>
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Flags of the World Quiz in Python</h1>
+  <h2 class="post-subtitle">Quiz your flag knowledge in your terminal</h2>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2022-06-19T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Jun 19, 2022
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 12 mins</span>
+  </p>
+<div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#projects">#projects</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#python">#python</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#jupyter">#jupyter</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#flagquiz">#flagquiz</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>This simple and fun game can be played from your own terminal, all with some simple python scripts.</p>
+
+<p>The game is both rudimentary and simplistic, yet matches the design and style of this online flag quiz (<a href="https://world-geography-games.com/en/flags_world.html">here</a> ↗). Feel free to modiify and change the game as you see fit!</p>
+
+<p>This game runs perfectly just as a python file, but even better when separated and ran in a Jupyter notebook. This quiz only requires the additional <code class="language-plaintext highlighter-rouge">png1000px</code> and <code class="language-plaintext highlighter-rouge">countries.json</code> files to be stored in the same directory as your <code class="language-plaintext highlighter-rouge">FlagQuiz.py</code> or <code class="language-plaintext highlighter-rouge">FlagQuizJupyter.ipynb</code> file, unless you want to reference the aforementioned files another way.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">png1000px</code> and <code class="language-plaintext highlighter-rouge">countries.json</code> files can be downloaded from hampusborgos’s GitHub page (<a href="https://github.com/hampusborgos/country-flags">here</a> ↗)</p>
+
+<blockquote>
+  <p>Each of these files can also be downloaded from my GitHub account (<a href="https://github.com/LukeNelsn/pyflagquiz">here</a> ↗)</p>
+</blockquote>
+
+<h2 id="flags-of-the-world-quiz-in-python">Flags of the World Quiz in Python</h2>
+
+<p>Required modules: <code class="language-plaintext highlighter-rouge">random</code> <code class="language-plaintext highlighter-rouge">json</code> <code class="language-plaintext highlighter-rouge">PIL</code> <code class="language-plaintext highlighter-rouge">glob</code> <code class="language-plaintext highlighter-rouge">matplotlib</code></p>
+
+<h4 id="preliminary-importing-and-organization-of-our-figure-size">Preliminary importing and organization of our figure size</h4>
+
+<p>Let’s also import all country names, establish a class of colors, some score keeping metrics, and create a clean list of each country flag</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">random</span> 
+<span class="kn">import</span> <span class="n">json</span>
+<span class="kn">from</span> <span class="n">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">import</span> <span class="n">glob</span>
+<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="n">matplotlib.pyplot</span> <span class="kn">import</span> <span class="n">figure</span>
+<span class="kn">import</span> <span class="n">matplotlib.image</span> <span class="k">as</span> <span class="n">mpimg</span>
+<span class="nf">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">countriesDICT</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="nf">open</span><span class="p">(</span><span class="sh">'</span><span class="s">countries.json</span><span class="sh">'</span><span class="p">))</span>
+<span class="k">class</span> <span class="nc">color</span><span class="p">:</span>
+   <span class="n">PURPLE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[95m</span><span class="sh">'</span>
+   <span class="n">CYAN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[96m</span><span class="sh">'</span>
+   <span class="n">DARKCYAN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[36m</span><span class="sh">'</span>
+   <span class="n">BLUE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[94m</span><span class="sh">'</span>
+   <span class="n">GREEN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[92m</span><span class="sh">'</span>
+   <span class="n">YELLOW</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[93m</span><span class="sh">'</span>
+   <span class="n">RED</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[91m</span><span class="sh">'</span>
+   <span class="n">BOLD</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[1m</span><span class="sh">'</span>
+   <span class="n">UNDERLINE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[4m</span><span class="sh">'</span>
+   <span class="n">END</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[0m</span><span class="sh">'</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span> 
+<span class="n">image_list</span> <span class="o">=</span> <span class="p">[]</span> 
+<span class="k">for</span> <span class="n">image</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="nf">glob</span><span class="p">(</span><span class="sh">'</span><span class="s">png1000px/*.png</span><span class="sh">'</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">Image</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+    <span class="n">image_list</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
+<span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">DARKCYAN</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="s">FLAG QUIZ</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="define-the-flag-quiz-itself">Define the Flag Quiz itself</h4>
+
+<p>We will loop over this many times as the user plays the game</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">flagQuiz</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">score</span><span class="p">,</span> <span class="n">count</span>
+    <span class="n">uniqueCountries</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="nf">sample</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="n">countriesDICT</span><span class="p">.</span><span class="nf">items</span><span class="p">()),</span><span class="mi">4</span><span class="p">)</span>
+    <span class="n">randList</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="nf">sample</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span> <span class="mi">4</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">1.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">2.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">3.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">4.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">optionsDict</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">2</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">3</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">4</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">1</span><span class="p">]}</span>
+    <span class="n">imgplot</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">(</span><span class="n">mpimg</span><span class="p">.</span><span class="nf">imread</span><span class="p">(</span><span class="sh">'</span><span class="s">png1000px/</span><span class="sh">'</span><span class="o">+</span><span class="nf">str</span><span class="p">(</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">].</span><span class="nf">lower</span><span class="p">())</span><span class="o">+</span><span class="sh">'</span><span class="s">.png</span><span class="sh">'</span><span class="p">))</span>    
+    <span class="n">plt</span><span class="p">.</span><span class="nf">axis</span><span class="p">(</span><span class="sh">'</span><span class="s">off</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">playerGuess</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">'</span><span class="s">Guess (enter </span><span class="sh">"</span><span class="s">n</span><span class="sh">"</span><span class="s"> to exit): </span><span class="sh">'</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">playerGuess</span> <span class="o">==</span> <span class="sh">'</span><span class="s">n</span><span class="sh">'</span><span class="p">:</span>
+                <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BLUE</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Final Score: </span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="sh">'</span><span class="s">/</span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+                <span class="nf">exit</span><span class="p">()</span>
+            <span class="k">elif</span> <span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="nb">ValueError</span>
+            <span class="k">elif</span> <span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="nb">ValueError</span>
+            <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">break</span>
+        <span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">YELLOW</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Guess must be between 1 &amp; 4</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">optionsDict</span><span class="p">[</span><span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)]</span> <span class="o">==</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>     
+        <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">GREEN</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">,</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> 
+        <span class="n">color</span><span class="p">.</span><span class="n">BLUE</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Score: </span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="sh">'</span><span class="s">/</span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">RED</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">optionsDict</span><span class="p">[</span><span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">,</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span>
+        <span class="n">color</span><span class="p">.</span><span class="n">GREEN</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">,</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> 
+        <span class="n">color</span><span class="p">.</span><span class="n">BLUE</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Score: </span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="sh">'</span><span class="s">/</span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="nf">flagQuiz</span><span class="p">()</span>        
+<span class="nf">flagQuiz</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="flags-of-the-world-quiz-in-python-jupyter-notebook">Flags of the World Quiz in Python (Jupyter Notebook)</h2>
+
+<p>Required modules: <code class="language-plaintext highlighter-rouge">random</code> <code class="language-plaintext highlighter-rouge">json</code> <code class="language-plaintext highlighter-rouge">PIL</code> <code class="language-plaintext highlighter-rouge">glob</code> <code class="language-plaintext highlighter-rouge">matplotlib</code>
+Additionally required modules for Jupyter version: <code class="language-plaintext highlighter-rouge">IPython</code> <code class="language-plaintext highlighter-rouge">time</code></p>
+
+<h4 id="preliminary-importing-and-organization-of-our-figure-size-1">Preliminary importing and organization of our figure size</h4>
+
+<p>Let’s also import all country names, establish a class of colors, some score keeping metrics, and create a clean list of each country flag</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">random</span> 
+<span class="kn">import</span> <span class="n">json</span>
+<span class="kn">from</span> <span class="n">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">import</span> <span class="n">glob</span>
+<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="n">matplotlib.pyplot</span> <span class="kn">import</span> <span class="n">figure</span>
+<span class="kn">import</span> <span class="n">matplotlib.image</span> <span class="k">as</span> <span class="n">mpimg</span>
+<span class="kn">from</span> <span class="n">IPython.display</span> <span class="kn">import</span> <span class="n">clear_output</span>
+<span class="kn">import</span> <span class="n">time</span>
+<span class="nf">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">countriesDICT</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="nf">open</span><span class="p">(</span><span class="sh">'</span><span class="s">countries.json</span><span class="sh">'</span><span class="p">))</span>
+<span class="k">class</span> <span class="nc">color</span><span class="p">:</span>
+   <span class="n">PURPLE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[95m</span><span class="sh">'</span>
+   <span class="n">CYAN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[96m</span><span class="sh">'</span>
+   <span class="n">DARKCYAN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[36m</span><span class="sh">'</span>
+   <span class="n">BLUE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[94m</span><span class="sh">'</span>
+   <span class="n">GREEN</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[92m</span><span class="sh">'</span>
+   <span class="n">YELLOW</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[93m</span><span class="sh">'</span>
+   <span class="n">RED</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[91m</span><span class="sh">'</span>
+   <span class="n">BOLD</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[1m</span><span class="sh">'</span>
+   <span class="n">UNDERLINE</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[4m</span><span class="sh">'</span>
+   <span class="n">END</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\033</span><span class="s">[0m</span><span class="sh">'</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span> 
+<span class="n">image_list</span> <span class="o">=</span> <span class="p">[]</span> 
+<span class="k">for</span> <span class="n">image</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="nf">glob</span><span class="p">(</span><span class="sh">'</span><span class="s">png1000px/*.png</span><span class="sh">'</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">Image</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+    <span class="n">image_list</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
+<span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">DARKCYAN</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="s">FLAG QUIZ</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="define-the-flag-quiz-itself-1">Define the Flag Quiz itself</h4>
+
+<p>We will loop over this many times as the user plays the game</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">flagQuiz</span><span class="p">():</span>
+    <span class="nf">clear_output</span><span class="p">(</span><span class="n">wait</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="k">global</span> <span class="n">score</span><span class="p">,</span> <span class="n">count</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">BLUE</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Score: </span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="sh">'</span><span class="s">/</span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="n">uniqueCountries</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="nf">sample</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="n">countriesDICT</span><span class="p">.</span><span class="nf">items</span><span class="p">()),</span><span class="mi">4</span><span class="p">)</span>
+    <span class="n">randList</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="nf">sample</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span> <span class="mi">4</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">1.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">2.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">3.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span>
+            <span class="sh">'</span><span class="s">4.</span><span class="sh">'</span><span class="p">,</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">optionsDict</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">2</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">3</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="mi">1</span><span class="p">],</span><span class="mi">4</span><span class="p">:</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="n">randList</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">1</span><span class="p">]}</span>
+    <span class="n">imgplot</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">(</span><span class="n">mpimg</span><span class="p">.</span><span class="nf">imread</span><span class="p">(</span><span class="sh">'</span><span class="s">png1000px/</span><span class="sh">'</span><span class="o">+</span><span class="nf">str</span><span class="p">(</span><span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">].</span><span class="nf">lower</span><span class="p">())</span><span class="o">+</span><span class="sh">'</span><span class="s">.png</span><span class="sh">'</span><span class="p">))</span>    
+    <span class="n">plt</span><span class="p">.</span><span class="nf">axis</span><span class="p">(</span><span class="sh">'</span><span class="s">off</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">playerGuess</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">'</span><span class="s">Guess (enter </span><span class="sh">"</span><span class="s">n</span><span class="sh">"</span><span class="s"> to exit): </span><span class="sh">'</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">playerGuess</span> <span class="o">==</span> <span class="sh">'</span><span class="s">n</span><span class="sh">'</span><span class="p">:</span>
+                <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BLUE</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Final Score: </span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="sh">'</span><span class="s">/</span><span class="sh">'</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+                <span class="nf">exit</span><span class="p">()</span>
+            <span class="k">elif</span> <span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="nb">ValueError</span>
+            <span class="k">elif</span> <span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="nb">ValueError</span>
+            <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">break</span>
+        <span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">YELLOW</span> <span class="o">+</span> <span class="sh">'</span><span class="s">Guess must be between 1 &amp; 4</span><span class="sh">'</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">optionsDict</span><span class="p">[</span><span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)]</span> <span class="o">==</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>     
+        <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">GREEN</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">color</span><span class="p">.</span><span class="n">RED</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span> <span class="n">optionsDict</span><span class="p">[</span><span class="nf">int</span><span class="p">(</span><span class="n">playerGuess</span><span class="p">)]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">,</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span> <span class="o">+</span>
+        <span class="n">color</span><span class="p">.</span><span class="n">GREEN</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">BOLD</span> <span class="o">+</span> <span class="n">uniqueCountries</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">color</span><span class="p">.</span><span class="n">END</span><span class="p">,</span> <span class="sh">'</span><span class="se">\n</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">time</span><span class="p">.</span><span class="nf">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nf">flagQuiz</span><span class="p">()</span>        
+<span class="nf">flagQuiz</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Thank you for taking the time to check out this very simple flag quiz, all built in python, and playable in your terminal!</p>
+
+<p>If you’re interested in more, checkout my other projects on this site or visit my GitHub account (<a href="https://github.com/LukeNelsn/">here</a> ↗)</p>
+
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/projects/2022/06/18/wordle-in-python.html" title="Wordle in Python">Wordle in Python</a><a class="next" href="/jekyll-theme-yat/personal/2022/07/01/Impactful-Quotes-and-Remarks.html" title="Impactful Quotes and Remarks">Impactful Quotes and Remarks</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/jekyll-theme-yat/projects/2022/06/18/wordle-in-python.html" title="Impactful Quotes and Remarks">Wordle in Python</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/personal/2023/09/04/my-experience.html" title="Impactful Quotes and Remarks">My Experience</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/welcome/2022/06/16/welcome-to-my-portfolio.html" title="Impactful Quotes and Remarks">Welcome to my portfolio</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/personal/2022/10/18/required-reading.html" title="Impactful Quotes and Remarks">Required Reading</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --></section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2023 LukeNelsn</div>
+      <div>Powered by <a title="Jekyll" href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreferrer">Jekyll theme from jeffreytse</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
